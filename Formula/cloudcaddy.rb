@@ -1,4 +1,4 @@
-class Datasette < Formula
+class Cloudcaddy < Formula
   include Language::Python::Virtualenv
   desc "Cloud Caddy"
   homepage "https://www.cloudcanvas.xyz"
@@ -22,7 +22,7 @@ class Datasette < Formula
   end
 
   # test do
-  #   assert_match "15", shell_output("#{bin}/datasette --get '/:memory:.csv?sql=select+3*5'")
-  #   assert_match "<title>Datasette:", shell_output("#{bin}/datasette --get '/'")
+  #   assert_match "15", shell_output("#{bin}/cloudcaddy --get '/:memory:.csv?sql=select+3*5'")
+  #   assert_match "<title>Cloudcaddy:", shell_output("#{bin}/cloudcaddy --get '/'")
   # end
 end

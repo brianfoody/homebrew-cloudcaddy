@@ -1,25 +1,12 @@
-# homebrew-datasette
+# homebrew-cloudcaddy
 
-To install [Datasette](https://github.com/simonw/datasette) using Homebrew:
+To install [cloudcaddy](https://github.com/brianfoody/cloudcaddy) using Homebrew:
 
-    brew tap simonw/datasette
-    brew install simonw/datasette/datasette
+    brew untap brianfoody/cloudcaddy
+    brew tap brianfoody/cloudcaddy
+    brew install brianfoody/cloudcaddy/cloudcaddy
 
 You can confirm that the install worked using:
 
-    $ datasette --version
-    datasette, version 0.46
-
-## Installing plugins
-
-[Datasette plugins](https://datasette.readthedocs.io/en/stable/plugins.html) need to be installed into the same Python environment as `datasette`.
-
-The easiest way to install them is to use the new `datasette install` command:
-
-    datasette install datasette-vega
-
-If you want to install them using `pip` instead you can do this:
-
-    /usr/local/opt/datasette/libexec/bin/pip install datasette-vega
-
-Run `datasette plugins` to see a list of currently installed plugins.
+    $ cloudcaddy --version
+    cloudcaddy, version 0.46
