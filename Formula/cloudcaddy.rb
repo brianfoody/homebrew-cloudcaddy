@@ -2,8 +2,8 @@ class Cloudcaddy < Formula
   include Language::Python::Virtualenv
   desc "Cloud Caddy"
   homepage "https://www.cloudcanvas.xyz"
-  url "https://github.com/brianfoody/cloudcaddy/blob/main/cloudcaddy-0.0.3.tar.gz?raw=true"
-  sha256 "464c7a225c3292d961082608b625a9d9ab9a29b2cd7af3f3dbb0fd9bc5837573"
+  url "https://github.com/brianfoody/cloudcaddy/blob/main/cloudcaddy-0.0.4.tar.gz?raw=true"
+  sha256 "5ef8e90a9a0814cf95c5692c3820858dfd01fa7d3c6b0d54a7b79f1632eea0b7"
   license "Apache-2.0"
 
   livecheck do
