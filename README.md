@@ -13,3 +13,4 @@ You can confirm that the install worked using:
 
 To upgrade;
 brew upgrade
+brew install brianfoody/cloudcaddy/cloudcaddy
