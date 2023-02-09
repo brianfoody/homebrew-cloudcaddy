@@ -10,3 +10,6 @@ You can confirm that the install worked using:
 
     $ cloudcaddy --version
     cloudcaddy, version 0.46
+
+To upgrade;
+brew upgrade
